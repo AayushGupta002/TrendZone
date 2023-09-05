@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendZone</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tinos&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"> <img src="img/logo.png" class="logo" alt=""></a>
+
+         <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a> </li>
+                <li id="lg-bag"><a class="active"  href="profile.html"><i class="fas fa-user-alt"></i></a> </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+         </div>
+
+         <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <a href="profile.html"><i class="fas fa-user-alt"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+         </div>
+
+    </section>
+
+    <section id="body">
+    
+    <div class="container">
+      <div class="forms">
+          <div class="form login">
+              <span class="title">Login</span>
+              <form action="#">
+                  <div class="input-field">
+                      <input type="text" placeholder="Enter your email" required>
+                      <i class="fa fa-envelope icon"></i>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" class="password" placeholder="Enter your password" required>
+                      <i class="fa fa-lock icon"></i>
+                      <i class="uil uil-eye-slash showHidePw"></i>
+                  </div>
+                  <div class="checkbox-text">
+                      <div class="checkbox-content">
+                          <input type="checkbox" id="logCheck">
+                          <label for="logCheck" class="text">Remember me</label>
+                      </div>
+                      
+                      <a href="#" class="text">Forgot password?</a>
+                  </div>
+                  <div class="input-field button">
+                      <input type="button" value="Login">
+                  </div>
+              </form>
+              <div class="login-signup">
+                  <span class="text">Not a member?
+                      <a href="#" class="text signup-link">Signup Now</a>
+                  </span>
+              </div>
+          </div>
+          <!-- Registration Form -->
+          <div class="form signup">
+              <span class="title">Registration</span>
+              <form action="#">
+                  <div class="input-field">
+                      <input type="text" placeholder="Enter your name" required>
+                      <i class="fa fa-user"></i>
+                  </div>
+                  <div class="input-field">
+                      <input type="text" placeholder="Enter your email" required>
+                      <i class="fa fa-envelope icon"></i>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" class="password" placeholder="Create a password" required>
+                      <i class="fa fa-lock icon"></i>
+                  </div>
+                  <div class="input-field">
+                      <input type="password" class="password" placeholder="Confirm a password" required>
+                      <i class="fa fa-lock icon"></i>
+                      <!-- <i class="fa fa-eye-slash showHidePw"></i> -->
+                  </div>
+                  <div class="checkbox-text">
+                      <div class="checkbox-content">
+                          <input type="checkbox" id="termCon">
+                          <label for="termCon" class="text">I accepted all terms and conditions</label>
+                      </div>
+                  </div>
+                  <div class="input-field button">
+                      <input type="button" value="Signup">
+                  </div>
+              </form>
+              <div class="login-signup">
+                  <span class="text">Already a member?
+                      <a href="#" class="text login-link">Login Now</a>
+                  </span>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

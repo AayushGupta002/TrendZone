@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendZone</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section id="header">
+        <a href="index.html"> <img src="img/logo.png" class="logo" alt=""></a>
+
+         <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a  class="active" href="cart.html "><i class="far fa-shopping-bag"></i></a> </li>
+                <li id="lg-bag"><a href="profile.html"><i class="fas fa-user-alt"></i></a> </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+         </div>
+
+         <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <a href="profile.html"><i class="fas fa-user-alt"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+         </div>
+
+    </section>
+    
+    <section id="page-header" class="about-header">
+        <h2>#cart</h2>
+        <p>Buy our products Online! You'll Love!</p>
+    </section>
+
+    <section id="cart" class="section-p1"> 
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a class="remove" onclick="Remove(1)"href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/f1.png" alt=""></td>
+                    <td>Funky Hawaiin Shirt for Mens</td>
+                    <td>₹1299</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1299</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/t1.png" alt=""></td>
+                    <td>Cartoon Astronaut T-shirts</td>
+                    <td>₹1799</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1799</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/Products/s16.png" alt=""></td>
+                    <td>Fashion Sneakers Breathable</td>
+                    <td>₹1199</td>
+                    <td><input type="number" value="1"></td>
+                    <td>₹1199</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>₹4297</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>₹4297</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img onclick="window.location.href='index.html';" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Poornima Institute of Engineering & Technology</p>
+            <p><strong>Phone:</strong> +91 8005765642</p>
+            <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i  class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Delivery Information</a>
+            <a href="about.html">Privacy Policy</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="profike.html">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="contact.html">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Play Store or App Store</p>
+            <div class="row">
+                <img onclick="window.location.href='https://play.google.com/store/games?device=windows&pli=1';" src="img/footer/store.png" alt="">
+            </div>
+            <p>Secured payment gateway</p>
+            <div class="payment">
+                 <img onclick="window.location.href='https://paytm.com/';" src="img/footer/pay1.png" alt="">
+                 <img onclick="window.location.href='https://www.phonepe.com/';" src="img/footer/pay2.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2023 TrendZone All Rights Reserved</p>
+            <p>Website developed by: Aayush Gupta</p>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>  
